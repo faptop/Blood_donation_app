@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#Be5025"
+    android:padding="20dp"
+    tools:context=".selectregistrationactivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:elevation="10dp"
+        android:background="#fff">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/blood_dono"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello,welcome to this Application"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What best descibes you"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"></TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/donorbutton"
+                    android:textAllCaps="false"
+                    android:text="Donor Registration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_background"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></Button>
+                <Button
+                    android:id="@+id/recipientbutton"
+                    android:text="Recipient Registartion"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#fff"
+                    android:background="@drawable/button_background"
+                    android:gravity="center"
+                    android:textStyle="bold"></Button>
+                <TextView
+                    android:id="@+id/backbutton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:text="Already Registered ? Sign In"
+                    ></TextView>
+                </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

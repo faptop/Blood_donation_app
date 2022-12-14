@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:paddingLeft="10dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/headerbackground"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/nav_user_image"
+        android:src="@drawable/profile"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="20dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:id="@+id/nav_user_fullname"
+        android:text="Full Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:id="@+id/nav_user_email"
+        android:text="abc@email.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#fff"
+
+        ></TextView>
+    <TextView
+        android:id="@+id/nav_user_bloodgroup"
+        android:text="blood group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#fff"
+
+        ></TextView>
+    <TextView
+        android:id="@+id/nav_user_type"
+        android:text="type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#fff"
+
+        ></TextView>
+</LinearLayout>

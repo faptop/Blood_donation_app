@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:id="@+id/home"
+         android:icon="@drawable/ic_myfeed"
+         android:title="Home">
+
+     </item>
+     <item android:id="@+id/sentEmail"
+         android:icon="@drawable/ic_check"
+         android:title="Donors Email">
+
+     </item>
+     <item android:id="@+id/compatible"
+    android:icon="@drawable/compatible"
+    android:title="Home">
+</item>
+     <item
+         android:title="Blood Groups">
+          <menu>
+               <group
+                   android:checkableBehavior="single">
+                    <item android:id="@+id/aplus"
+                        android:icon="@drawable/aplus"
+                        android:title="A positive">
+
+                    </item>
+                    <item android:id="@+id/aminus"
+                        android:icon="@drawable/abminus"
+                        android:title="A nagative">
+
+                    </item>
+                    <item android:id="@+id/abplus"
+                        android:icon="@drawable/abplus"
+                        android:title="Donors Email">
+
+                    </item>
+                    <item android:id="@+id/abminus"
+                        android:icon="@drawable/abminus"
+                        android:title="Donors Email">
+
+                    </item>
+                    <item android:id="@+id/oplus"
+                        android:icon="@drawable/oplus"
+                        android:title="Donors Email">
+
+                    </item>
+                    <item android:id="@+id/ominus"
+                        android:icon="@drawable/ominus"
+                        android:title="Donors Email">
+
+                    </item>
+                    <item android:id="@+id/bplus"
+                        android:icon="@drawable/bplus"
+                        android:title="Donors Email">
+
+                    </item>
+                    <item android:id="@+id/bminus"
+                        android:icon="@drawable/bminus"
+                        android:title="Donors Email">
+
+                    </item>
+
+               </group>
+          </menu>
+
+     </item>
+     <item
+          android:title="Actions">
+          <menu
+               >
+               <group
+                   android:checkableBehavior="single">
+                    <item
+                        android:title="profile"
+                        android:id="@+id/profile"
+                        android:icon="@drawable/profile"
+                        >
+
+                    </item>
+                    <item
+                        android:id="@+id/notification"
+                        android:title="notification"
+                        android:icon="@drawable/ic_notifications"></item>
+                    <item android:icon="@drawable/ic_logout"
+                        android:title="logout"
+                        android:id="@+id/logout"></item>
+               </group>
+          </menu>
+     </item>
+     <item
+         android:title="Communicate">
+          <menu>
+               <group
+                   android:checkableBehavior="single"
+                   >
+                    <item
+                        android:title="About This App"
+                        android:icon="@drawable/ic_about"
+                        android:id="@+id/aboutapp"></item>
+                    <item
+                        android:title="sharethisapp"
+                        android:id="@+id/shareapp"
+                        android:icon="@drawable/ic_share"
+                        ></item>
+                    <item
+                        android:title="rateongoogle"
+                        android:icon="@drawable/ic_rate"
+                        android:id="@+id/rateongoogle"></item>
+               </group>
+
+          </menu>
+     </item>
+
+
+</menu>
